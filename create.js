@@ -16,8 +16,6 @@ export const main = handler(async (event, context) => {
         },
     };
 
-    console.log(params);
-
     await dynamoDb.put(params);
 
     return params.Item;
