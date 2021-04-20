@@ -17,5 +17,7 @@ export const main = handler(async (event, context) => {
         currency: "usd",
     });
 
+    console.log('Testing Push Deployment');
+
     return { status: true };
 });
