@@ -1,3 +1,5 @@
+
+
 Resources:
   CognitoAuthorizedApiPolicy:
     Type: AWS::IAM::Policy
